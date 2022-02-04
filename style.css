@@ -1,0 +1,235 @@
+@keyframes argh-my-eyes {
+    0% {
+        background-color: white;
+    }
+    15% {
+        background-color: rgb(255, 66, 66);
+    }
+    25% {
+        background-color: rgb(255, 255, 13);
+    }
+    50% {
+        background-color: rgb(70, 245, 70);
+    }
+    65% {
+        background-color: rgb(16, 175, 255);
+    }
+    75% {
+        background-color: pink;
+    }
+    99% {
+        background-color: white;
+    }
+}
+
+body {
+    animation: argh-my-eyes 1s infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#btn_test {
+    margin: 0;
+    position: relative;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#test1 {
+    visibility: visible;
+}
+
+#ad1 {
+    top: 50%;
+    left: 7%;
+    visibility: hidden;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad2 {
+    top: 50%;
+    left: 93%;
+    visibility: hidden;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad3 {
+    top: 72%;
+    left: 25%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad4 {
+    height: 500px;
+    top: 38%;
+    left: 24%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad5 {
+    top: 77%;
+    left: 52%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad6 {
+    top: 64%;
+    left: 76%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad7 {
+    top: 23%;
+    left: 46%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad8 {
+    top: 24%;
+    left: 46%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad9 {
+    top: 66%;
+    left: 24%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad10 {
+    top: 30%;
+    left: 61%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad11 {
+    top: 69%;
+    left: 8%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad12 {
+    top: 21%;
+    left: 79%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad13 {
+    top: 62%;
+    left: 84%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad14 {
+    top: 20%;
+    left: 13%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#ad15 {
+    top: 67%;
+    left: 61%;
+    position: absolute;
+    visibility: hidden;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#test1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@keyframes fadeout {
+    to {
+        visibility: hidden;
+    }
+}
+
+.box {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    animation: fadeout 1s ease-in 2s;
+    animation-fill-mode: forwards;
+}
+
+#misstest {
+    color: red;
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
